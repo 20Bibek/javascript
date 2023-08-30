@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(macos-mojave-sand-dunes-mojave-desert-california-night-dark-5120x2880-4051.jpg);
+}
+div{
+    text-align: center;
+}
+div input[type=number] {
+    margin: 10px 0;
+    padding: 10px ;
+    width: 100%;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: yellow;
+    
+}
+div input[type=number]:read-only {
+    border: 1px solid #000;
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+div button{
+    margin: 0 4px;
+    padding: 8px 0;
+    width: 125px;
+    border: 1px solid #999;
+    border-radius: 50px;
+    box-shadow: 0 0 30px lightblue;
+    background-color: black;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+div button:hover {
+    color: blue;
+}
+.btn{
+    padding: 10px 30px;
+    background: yellowgreen;
+    outline: none;
+    border-radius: 50px;
+    box-shadow: 0 0 30px yellowgreen;
+    font-size: 25px;
+    color: black;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
